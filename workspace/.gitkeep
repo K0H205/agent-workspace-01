@@ -1,0 +1,3 @@
+# This file keeps the workspace/ directory present after clone.
+# Service repositories are cloned here at runtime and are NOT tracked
+# (see ../.gitignore). Do not commit anything else in this directory.
