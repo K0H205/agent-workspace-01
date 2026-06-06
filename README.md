@@ -7,9 +7,10 @@ across many service repositories — but **not** the service code itself.
 Service repos are cloned under `workspace/` (which is gitignored) and keep
 their own `.git`.
 
-👉 **Start with [`AGENTS.md`](./AGENTS.md)** — the canonical map and rules.
-Tool-specific entry points like `CLAUDE.md` and `.claude/skills/` are
-symlinks back into the neutral source.
+👉 **Start with [`AGENTS.md`](./AGENTS.md)** — the canonical, **tool-neutral**
+map and rules. The repo presumes no specific agent tool and ships no
+tool-specific files by default. If a tool needs its own entry point, add it
+locally as a thin symlink back into the neutral source (see `AGENTS.md` §3).
 
 ## Quick start
 

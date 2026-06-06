@@ -1,9 +1,10 @@
 # Skills
 
 Reusable, **tool-neutral** agent skills. This directory is the canonical
-location for skill content. Tool-specific entry points (e.g.
-`.claude/skills/`) are symlinks back to this directory — do not duplicate
-content there.
+location for skill content. If a tool needs skills under its own path, add a
+symlink back to this directory locally (e.g. `.<tool>/skills -> ../skills`) —
+do not duplicate content there, and do not commit a tool-specific path as the
+default.
 
 ## Layout
 
