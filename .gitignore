@@ -1,0 +1,19 @@
+# --- Cloned service repositories ---------------------------------------
+# Each service repo is cloned under workspace/ and keeps its OWN .git.
+# Never track their contents from this parent repo. This prevents
+# "embedded repository" accidents (git add'ing a nested repo).
+/workspace/*
+!/workspace/.gitkeep
+
+# --- Local environment / secrets ---------------------------------------
+.env
+.env.local
+*.local
+
+# --- OS / editor noise -------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/

@@ -1,0 +1,23 @@
+# Workspace manifest
+# ------------------------------------------------------------------------
+# Declares the service repositories that get cloned into ./workspace/.
+# These clones are NOT tracked by this repo (see .gitignore).
+#
+# Fill in real entries in a follow-up commit. The structure below is a
+# placeholder template.
+#
+# Each entry:
+#   name:   directory name created under workspace/
+#   url:    git clone URL
+#   ref:    branch/tag/commit to check out (optional, defaults to default branch)
+version: 1
+
+repos:
+  # - name: example-service
+  #   url: git@github.com:K0H205/example-service.git
+  #   ref: main
+
+  # - name: another-service
+  #   url: git@github.com:K0H205/another-service.git
+  #   ref: develop
+  []
